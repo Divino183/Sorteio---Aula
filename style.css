@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    width: 323px;
+    margin: 106px auto 30px;
+    display: block;
+}
+
+main {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.hidden {
+    width: 140px;
+    height: 140px;
+    background-color: #c1c412;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.winning-number {
+    font-size: 70px;
+    font-weight: 900;
+    color: #e40909;
+}
+
+p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-inputs {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.main-inputs input {
+    width: 242px;
+    height: 44px;
+    border-radius: 14px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-weight: 500;
+    font-size: 40px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.main-inputs input:focus {
+    border: 1px solid green;
+}
+
+button {
+    width: 342px;
+    height: 44px;
+    border-radius: 10px;
+    background: #AEC346;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px double magenta;
+    font-size: 34px;
+}
+
+button:active {
+    background-color: #adce0b;
+}
+
+@media (max-width: 760px) {
+    main {
+        width: 100%;
+    }
+
+    .logo {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .main-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    button {
+        width: 70%;
+    }
+}
