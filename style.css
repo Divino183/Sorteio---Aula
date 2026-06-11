@@ -25,13 +25,12 @@ main {
 .hidden {
     width: 140px;
     height: 140px;
-    background-color: #c1c412;
+    background-color: #ffffff;
     border-radius: 50%;
-    border: 4px solid #fff;
+    border: 4px solid #699de0;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     margin: 20px auto;
 }
 
